@@ -16,7 +16,7 @@
     background-color: #f2f2f2; 
     padding: 50px; 
     border-radius: 20px; 
-    max-width: 400px;
+    max-width: 50%;
 }
 
 .card_container {
@@ -46,6 +46,7 @@
 
     .rounded_card_400w {
         padding: 10px!important; 
+        max-width: none!important;
     }
 
     .card_container {
