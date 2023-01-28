@@ -1,6 +1,11 @@
 .custom_link {
     margin-right: 10px;
     text-decoration: none;
+    color: blue;
+}
+
+.custom_link:hover {
+    color: blueviolet;
 }
 
 .rounded_card_400w {
