@@ -34,7 +34,7 @@
     flex: 50%;
 }
 
-@media (min-width:481px)  { 
+@media (max-width:500px)  { 
 
     .rounded_card_400w {
         display: flex; 
