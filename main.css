@@ -33,3 +33,19 @@
 .column {
     flex: 50%;
 }
+
+@media (min-width:481px)  { 
+
+    .rounded_card_400w {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: #f2f2f2; 
+        padding: 50px; 
+        border-radius: 20px; 
+        max-width: 700px;
+    }
+
+}
+
