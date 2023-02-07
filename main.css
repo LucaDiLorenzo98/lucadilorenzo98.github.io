@@ -59,6 +59,7 @@
     width: 20%;
     height: auto;
     margin: 1em;
+    object-fit: contain;
 }
 
 .img_std_size {
