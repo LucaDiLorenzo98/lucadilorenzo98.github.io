@@ -53,19 +53,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
 .image-container img {
-    width: 30%;
+    width: 20%;
     height: auto;
     margin: 1em;
-  }
+}
 
-  .img_std_size {
+.img_std_size {
     height: 50%; 
     width: 50%; 
     object-fit: contain;
-  }
+}
 
 @media (max-width:500px)  { 
 
@@ -85,8 +85,11 @@
     .img_std_size {
         height: 100%; 
         width: 100%; 
-        object-fit: contain;
-      }
+    }
+
+    .image-container img {
+        width: 30%;
+    }
 
 }
 
