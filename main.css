@@ -63,7 +63,7 @@
 
   .img_std_size {
     height: 50%; 
-    width: 100%; 
+    width: 50%; 
     object-fit: contain;
   }
 
